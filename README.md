@@ -19,3 +19,11 @@ This is the game which will make you attentive with the game . It is very intere
   ![reaction](https://user-images.githubusercontent.com/34159717/43367366-62ade7a8-9369-11e8-9d52-aabe76f742d7.JPG)
 Screenshot 1
 
+![reaction1](https://user-images.githubusercontent.com/34159717/43367367-63108aca-9369-11e8-96a6-ba5fc79201bb.JPG)
+Screenshot 2
+
+## You are most welcome to modify and give the suggestions .. If You find any mistake or error then make a pull request or inform to me ..
+
+# Programming Languages Used Here Are :
+Javascript
+HTML & CSS 
