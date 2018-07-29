@@ -25,7 +25,7 @@ Screenshot 2
 ## You are most welcome to modify and give the suggestions .. If You find any mistake or error then make a pull request or inform to me ..
 ***
 Leave your Error or anything want to know , get connected on gitter Click the Link
-[![Join the chat at https://gitter.im/publiclab/publiclab](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/publiclab/publiclab)
+[![Join the chat at https://gitter.im/Reaction-Timer/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/publiclab/publiclab)
 
 # Programming Languages Used Here Are :
 * Javascript
