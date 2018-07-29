@@ -25,5 +25,5 @@ Screenshot 2
 ## You are most welcome to modify and give the suggestions .. If You find any mistake or error then make a pull request or inform to me ..
 
 # Programming Languages Used Here Are :
-Javascript
-HTML & CSS 
+* Javascript
+* HTML & CSS 
