@@ -1,23 +1,104 @@
-<html>
+<!doctype html>
+<html lang = "en">
     <head>
+       
         <title>Reaction Time Game</title>
         
         <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+        <script type="text/javascript" src="test.js"></script>
+        
+        
+        
     </head>
+    
     
     <body>
         
-        <h1>Test Your Reactions!</h1>
-        <h2>Click On The Boxes And Circles As Quickly As You Can! </h2>
-        <h3>Your best time and the current time is displayed before</h3>
+        <div class="container-fluid">
+            
+            <div class="navbar navbar-expand-lg bg-light">
+                
+                <div class="navbar-brand">
+                    
+                    <div id="mySidenav" class="sidenav">
+                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        
+                          <a id ="me" href="#">ME</a>
+                        
+                          <a href="https://gitter.im/Reaction-Timer/Lobby" target="_blank">Contact</a>
+                    </div>
+
+                    <div id="main">
+
+                          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    </div>
+                    
+                    <a href="#" ><img id="Logo" src="https://blog.flamingtext.com/blog/2018/08/10/flamingtext_com_1533877514_502837185.gif" border="0"></a>
+
+                
+                </div>
+                
+                <ul class="navbar-nav">
+                    
+                    
+                    <li id="contact" class="nav-item">
+                        <a href="https://gitter.im/Reaction-Timer/Lobby" target="_blank"><i class="fa fa-fw fa-envelope"></i><span id="largerText">Contact</span></a>
+                        
+                    
+                        
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/viditvarshney" target="_blank"><img id="github" src="github.JPG"></a>
+                    </li>
+                
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/vidit.varshney222" target="_blank"><img  src="Capture.JPG"><span id="profile">Profile</span></a>
+                    </li>
+                
+                </ul>
+            
+            </div>
         
-        <p class="bold">Your Time: <span id="timeTaken"></span></p>
         
-        <p class="bold">Your Best Time: <span id="best"></span></p>
+        </div>
         
-        <div id="shape"></div>
+        <p> RULES ::--></p>
+        
+        <div id="disappear">
+            
+            <p>Want to know ,"How to play the Game ? </p>
+        
+            <p>Click on the Instructions Button..</p>
+        
+            <button id="instruction">TO SEE INSTRUCTIONS CLICK ON ME !!</button>
+        
+        </div>
+        <p id="rulePara"></p>
+        
+        <script type="text/javascript">
+        
+            document.getElementById("instruction").onclick = function() {
+                
+                document.getElementById("rulePara").innerHTML = "# Welcome to REACTION-TIMER GAME !!<br># You have to click the shapes <br># The shapes are appear on your screen <br># But remember your 'RESPONSE TIME' will be noticed at the left-top corner , so you have to click as fast as you can.. <br># HAVE A NICE GAME, BEST OF LUCK!! <br># To play GAme Go to the Game Console ,which is on top-right corner";
+                
+                document.getElementById("disappear").innerHTML ="";
+            }
+        
+        </script>
+        
+        <a id="gameConsole" href="https://reactiontimer.tk" target="_blank">Go To Game Console !</a>
         
         <script type="text/javascript" src="script.js"></script>
+        
         
     </body>
 
