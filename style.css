@@ -11,3 +11,9 @@ position: relative;
 font-weight: bold;
 color:red;
 }
+button {
+    text-align: center; 
+    width: 150px; 
+    margin-left: 800px; 
+    border-radius: 10px;
+}
