@@ -1,4 +1,4 @@
-var bestTime = 0; 
+var bestTime = 10; 
 var start = new Date().getTime();
 
 function getRandomColor() {
@@ -14,13 +14,13 @@ function getRandomColor() {
 
 function makeShapeAppear() {
     
-    var top = Math.random()* 400;
+    var top = Math.random()* 200;
     
     var left =Math.random()* 1150;
     
     var width = (Math.random()* 400) + 100;
     
-    if(Math.random() < 0.5) {
+    if(Math.random() > 0.5) {
         
         document.getElementById("shape").style.borderRadius = "50%";
     } else {
@@ -54,19 +54,18 @@ document.getElementById("shape").onclick = function() {
     
     var end = new Date().getTime();
     
-    var timeTaken = (end - start) / 1000 + " sec";
+    var timeTaken = (end - start) / 1000;
     
-    document.getElementById("timeTaken").innerHTML = timeTaken;
+    document.getElementById("timeTaken").innerHTML = timeTaken + " sec";
     
+    if(timeTaken < bestTime) {
+        bestTime = timeTaken;
+        document.getElementById("best").innerHTML = bestTime + " sec";
         
+        
+    }    
     
-        if (timeTaken < bestTime || bestTime == 0) {
-            bestTime = timeTaken;
-            document.getElementById("best").innerHTML = bestTime + "s"
-        } else {
-            
-            document.getElementById("best").innerHTML = timeTaken + " sec";
-        }
+    
     
     
     Timeout();
