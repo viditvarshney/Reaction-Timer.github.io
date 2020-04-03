@@ -1,5 +1,8 @@
 var bestTime = 10; 
 var start = new Date().getTime();
+document.getElementById("rules").onclick = function () {
+    alert("Try to click the shapes as soon as possible to increase your score");
+}
 
 function getRandomColor() {
     
