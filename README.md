@@ -1,8 +1,23 @@
 [![Join the chat at https://gitter.im/Reaction-Timer/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Reaction-Timer/Lobby)
-<a href="https://twitter.com/intent/tweet?text=How+fast+you+can+click+me%3F&url=https%3A%2F%2Fgithub.com%2Fviditvarshney%2FReaction-Timer-%2Ftree%2Fdev&hashtags=github&original_referer=http%3A%2F%2Fgithub.com%2F&tw_p=tweetbutton" target="_blank">
-  <img src="http://jpillora.com/github-twitter-button/img/tweet.png"
-       alt="tweet button" title="How fast you can click me?"></img>
+<a href="https://twitter.com/intent/tweet?text=How+fast+you+can+click+me%2C+Try+this+game+!&url=https%3A%2F%2Fgithub.com%2Fviditvarshney%2FReaction-Timer-%2Ftree%2Fdev&hashtags=github&original_referer=http%3A%2F%2Fgithub.com%2F&tw_p=tweetbutton" target="_blank">
+  <img src="http://jpillora.com/github-twitter-button/img/tweet.png" alt="tweet button" title="How fast you can click me, Try this game !">
 </a>
+<a href="https://github.com/viditvarshney/Reaction-Timer-/tree/dev">
+    <img src="https://img.shields.io/badge/Branch-dev-green.svg?longCache=true" alt="dev-Branch">
+</a>
+<a href="https://github.com/viditvarshney/Reaction-Timer-/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-orange.svg?longCache=true" alt="License">
+</a>
+<a href="https://github.com/viditvarshney/Reaction-Timer-/stargazers">
+    <img src="https://img.shields.io/github/stars/viditvarshney/Reaction-Timer-?style=social" alt="Stargazers">
+</a>
+<a href="https://github.com/viditvarshney">
+    <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="awesome">
+  </a>
+<a href ="https://twitter.com/_imvv">
+    <img src ="https://img.shields.io/twitter/follow/_imvv?label=Follow%20Me&style=social">
+</a>
+
 
 # Reaction-Timer-
 This is the game based on javascript which notes your reaction time , you have to very attentive towards it ......  So  check and play .
