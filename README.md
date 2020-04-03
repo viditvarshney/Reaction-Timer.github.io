@@ -1,3 +1,9 @@
+[![Join the chat at https://gitter.im/Reaction-Timer/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Reaction-Timer/Lobby)
+<a href="https://twitter.com/intent/tweet?text=How+fast+you+can+click+me%3F&url=https%3A%2F%2Fgithub.com%2Fviditvarshney%2FReaction-Timer-%2Ftree%2Fdev&hashtags=github&original_referer=http%3A%2F%2Fgithub.com%2F&tw_p=tweetbutton" target="_blank">
+  <img src="http://jpillora.com/github-twitter-button/img/tweet.png"
+       alt="tweet button" title="How fast you can click me?"></img>
+</a>
+
 # Reaction-Timer-
 This is the game based on javascript which notes your reaction time , you have to very attentive towards it ......  So  check and play .
 Live at https://reactiontimer.tk   ( Renewal Needed )
@@ -25,8 +31,6 @@ Screenshot 2
 
 ## You are most welcome to modify and give the suggestions .. If You find any mistake or error then make a pull request or inform to me ..
 ***
-### - Leave your Error or anything want to know , get connected on gitter Click the Link
-[![Join the chat at https://gitter.im/Reaction-Timer/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Reaction-Timer/Lobby)
 
 # Programming Languages Used Here Are :
 * Javascript
