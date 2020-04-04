@@ -23,11 +23,8 @@
 This is the game based on javascript which notes your reaction time , you have to very attentive towards it ......  So  check and play .
 Live at https://reactiontimer.tk   ( Renewal Needed )
  
-
-# 
 ***
 # Welcome to the **"Reaction-Timer"**
-***
 
 This is the game which will make you attentive with the game . It is very interesting when you bored ...
 ***
@@ -50,7 +47,13 @@ Screenshot 2
 # Programming Languages Used Here Are :
 * Javascript
 * HTML & CSS 
-<br>
+***
+<!-- 
+[![Start](https://on.ahmda.ws/osd3/c)](./../../)
+## Getting Started ( until website is launched)
+- Show support by giving a :star:
+- fork it
+- open intro.html in any browser -->
 
 [![🙌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/connect.png)](./../../)
 
