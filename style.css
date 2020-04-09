@@ -1,19 +1,19 @@
 #shape {
 
-width:200px;
-height:200px;
-background-color: green;
-border: 1px solid blue;
-display: none;
-position: relative;
+    width:200px;
+    height:200px;
+    background-color: green;
+    border: 1px solid blue;
+    display: none;
+    position: relative;
 }
 .bold {
-font-weight: bold;
-color:red;
+    font-weight: bold;
+    color:red;
 }
 button {
     text-align: center; 
     width: 150px; 
-    margin-left: 800px; 
     border-radius: 10px;
+    border:none;
 }
