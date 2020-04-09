@@ -21,7 +21,7 @@
 
 # Reaction-Timer-
 This is the game based on javascript which notes your reaction time , you have to very attentive towards it ......  So  check and play .
-Live at https://reactiontimer.tk   ( Renewal Needed )
+Live at [Click-Me](https://viditvarshney.github.io/Reaction-Timer.github.io/)
  
 ***
 # Welcome to the **"Reaction-Timer"**
