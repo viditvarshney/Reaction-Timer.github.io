@@ -1,6 +1,7 @@
 window.onload = function () {
     
     var bestTime = 10; 
+    score = 0;
     var start = new Date().getTime();
     document.getElementById("rules").onclick = function () {
         alert("Try to click the shapes as soon as possible to increase your score");
@@ -64,9 +65,11 @@ window.onload = function () {
         document.getElementById("timeTaken").innerHTML = timeTaken + " sec";
         
         if(timeTaken < bestTime) {
-            bestTime = timeTaken;
-            document.getElementById("best").innerHTML = bestTime + " sec";
             
+            bestTime = timeTaken;
+            score = score + bestTime*10000;
+            
+            document.getElementById("best").innerHTML = bestTime + " sec";
             
         }    
         
@@ -75,9 +78,11 @@ window.onload = function () {
         
         Timeout();
     }
+
+    
     // exit function
     exit.onclick = function(e) {
-        score = bestTime*1000;
+        
 		alert("Great, You Best Score till now is: " + score);
 	}
 }
